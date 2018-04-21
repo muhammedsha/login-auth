@@ -1,0 +1,13 @@
+## YAML Template.
+---
+
+spring:
+    application:
+        name: employeedetails
+    jpa:
+        showSql: true
+    h2:
+        console:
+            enabled: true
+server:
+    port: 8000
